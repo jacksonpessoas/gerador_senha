@@ -30,7 +30,7 @@ Este é um projeto web criado com **Flask** e **HTML/CSS/JS**, que gera senhas s
 ```bash
 # Clone o repositório
 git clone https://github.com/SEU_USUARIO/gerador-senhas.git
-cd gerador-senhas
+cd gerador_senhas
 
 # Crie e ative um ambiente virtual
 python3 -m venv venv
