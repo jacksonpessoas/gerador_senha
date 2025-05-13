@@ -1,0 +1,143 @@
+/* body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #00ffc3;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #00ffc3;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 0 20px #00ffc3;
+    text-align: center;
+  }
+  
+  input, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #00ffc3;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00bfa5;
+  }
+  
+  .senha-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: #111;
+    border: 1px dashed #00ffc3;
+    word-break: break-all;
+    border-radius: 8px;
+  }
+   */
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00fff7;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #00fff7;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.4rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  background-color: #00fff7;
+  color: #000;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #02d4c6;
+}
+
+.senha-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #111;
+  border: 1px dashed #00fff7;
+  border-radius: 10px;
+  font-family: monospace;
+  word-break: break-all;
+  position: relative;
+}
+
+#copiar-btn {
+  margin-top: 1rem;
+  background-color: #00fff7;
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  width: 100%;
+}
+
+#copiar-btn:hover {
+  background-color: #02d4c6;
+}

@@ -1,0 +1,10 @@
+# Ignora arquivos e pastas comuns do Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Ignora ambientes virtuais
+venv/
+env/
+
